@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Grupo 01 DOM</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Arsha - v4.7.0
+  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">GRUPO 01</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">INICIO</a></li>
+          <li><a class="nav-link scrollto" href="#about">INTRODUCCION</a></li>
+          <li><a class="nav-link scrollto" href="#services">METODOS</a></li>
+          <li><a class="nav-link   scrollto" href="#portfolio">COMPONENTES</a></li>
+          <li><a class="nav-link scrollto" href="#team">ELEMENTOS</a></li>
+          <li><a class="nav-link scrollto" href="#DOMHTML">DOM HTML</a></li>
+          <li><a class="nav-link scrollto" href="#contact">DOM CSS</a></li>
+      
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>Universidad de las Fuerzas Armadas -ESPE-</h1>
+          <h2>Integrantes: Alvarado Carolina, Moromenacho Mishell, Velasco Karen</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#about" class="btn-get-started scrollto">Aplicación de Tecnologías Web</a>
+           
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Cliens Section ======= -->
+    <section id="cliens" class="cliens section-bg">
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in">
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Cliens Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>INTRODUCCIÓN</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              Con HTML DOM, JavaScript puede acceder y cambiar todos los elementos de un documento HTML.
+
+            El DOM HTML (modelo de objetos de documento)
+            Cuando se carga una página web, el navegador crea una D DOCUMENTO O bject M odelo de la página.
+
+            El modelo HTML DOM se construye como un árbol de objetos :
+            </p>
+
+            <img src="img/int.gif" width="700" height="200">
+            <ul> Con el modelo de objetos, JavaScript obtiene todo el poder que necesita para crear HTML dinámico:
+              <li><i class="ri-check-double-line"></i> JavaScript puede cambiar todos los elementos HTML de la página.</li>
+              <li><i class="ri-check-double-line"></i> JavaScript puede cambiar todos los atributos HTML de la página.</li>
+              <li><i class="ri-check-double-line"></i> JavaScript puede cambiar todos los estilos CSS de la página.</li>
+              <li><i class="ri-check-double-line"></i> JavaScript puede eliminar elementos y atributos HTML existentes</li>
+               <li><i class="ri-check-double-line"></i> JavaScript puede agregar nuevos elementos y atributos HTML</li>
+               <li><i class="ri-check-double-line"></i> JavaScript puede reaccionar a todos los eventos HTML existentes en la página.</li>
+               <li><i class="ri-check-double-line"></i> JavaScript puede crear nuevos eventos HTML en la página.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              <h3>¿Qué es el DOM?</h3>
+              DOM es un estándar W3C (World Wide Web Consortium).
+
+              El DOM define un estándar para acceder a los documentos:
+
+              "El Modelo de Objetos de Documento (DOM) del W3C es una plataforma e interfaz de lenguaje neutro que permite a los programas y scripts acceder y actualizar dinámicamente el contenido, la estructura y el estilo de un documento".
+
+              El estándar DOM de W3C se divide en 3 partes diferentes:
+
+              Core DOM: modelo estándar para todos los tipos de documentos
+              XML DOM: modelo estándar para documentos XML
+              HTML DOM: modelo estándar para documentos HTML
+            </p>
+            <p>
+              <h3>¿Qué es el DOM HTML?</h3>
+            HTML DOM es un modelo de objeto estándar y una interfaz de programación para HTML. Se define:
+
+            Los elementos HTML como objetos
+            Las propiedades de todos los elementos HTML
+            Los métodos para acceder a todos los elementos HTML
+            Los eventos para todos los elementos HTML
+            En otras palabras: HTML DOM es un estándar sobre cómo obtener, cambiar, agregar o eliminar elementos HTML.
+</p>
+            <a href="#" class="btn-learn-more">Inicio</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Metodos</h2>
+          <p>Los métodos HTML DOM son acciones que puede realizar (en elementos HTML).
+
+          Las propiedades HTML DOM son valores (de elementos HTML) que puede establecer o cambiar.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4><a href="">La interfaz de programación DOM</a></h4>
+              <p>Se puede acceder al DOM HTML con JavaScript (y con otros lenguajes de programación).</p>
+
+             <p> En el DOM, todos los elementos HTML se definen como objetos.</p>
+
+              <p>La interfaz de programación son las propiedades y métodos de cada objeto.</p>
+
+              <p>Una propiedad es un valor que puede obtener o establecer (como cambiar el contenido de un elemento HTML).</p>
+
+              <p>Un método es una acción que puede realizar (como agregar o eliminar un elemento HTML).</p></p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="">Ejemplo</a></h4>
+              <p><img src="img/ejem.jpg" ></p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a href="">El método getElementById</a></h4>
+              <p>La forma más común de acceder a un elemento HTML es utilizar el iddel elemento.</p>
+
+                <p>En el ejemplo anterior, el getElementByIdmétodo utilizado id="demo"para encontrar el elemento.</p>
+
+                </p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4><a href="">La propiedad innerHTML/a></h4>
+              <p>La forma más sencilla de obtener el contenido de un elemento es mediante la innerHTMLpropiedad.</p>
+
+              <p>La innerHTMLpropiedad es útil para obtener o reemplazar el contenido de elementos HTML.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>Call To Action</h3>
+            <p> La innerHTMLpropiedad se puede utilizar para obtener o cambiar cualquier elemento HTML, incluidos < html > y < body >. </p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Inicio</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>COMPONENTES</h2>
+        </div>
+
+        <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <li data-filter="*" class="filter-active">
+DOM SERVER
+
+GENERACIÓN
+</li>
+          <li data-filter=".filter-app">
+DOM PRINT
+
+IMPRESIÓN MASIVA
+</li>
+          <li data-filter=".filter-card">
+DOM WEB & MOBILE
+
+CONTROL DE CALIDAD
+</li>
+          <li data-filter=".filter-web">
+
+DOCUMENT MANAGER
+
+ARCHIVADO
+</li>
+        </ul>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>DOM SERVER</h4>
+              <p>
+
+
+Es el núcleo del sistema, el motor de generación de documentos optimizado para la generación masiva a partir de diferentes orígenes de datos (bases de datos o ficheros XML, CSV o Excel). Proporciona una capa de servicios web para facilitar la integración con las aplicaciones existentes.
+</p>
+              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt=""></div>
+           
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>DOM PRINT</h4>
+              <p>El servidor de impresión es un servicio desarrollado bajo tecnología Java que tiene la capacidad de imprimir grupos de documentos PDF en cualquier de las impresoras de la red corporativa. Permite programar impresiones masivas. También dispone de conectores hacia centros de impresión externos.</p>
+              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>DOM WEB & MOBILE</h4>
+              <p>Interficie de usuario de l.DOM, tanto por canal Web como para dispositivos móviles, que permite gestionar las peticiones, o realizar un control de calidad a partir de una muestra aleatoria de la documentación generada.</p>
+              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>DOCUMENT MANAGER</h4>
+              <p>Archivado de la documentación al gestor documental.  l.DOM se puede integrar con los gestores documentales corporativos existentes o se puede integrar dentro de la solución el gestor Alfresco Server.</p>
+              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>App 3</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Card 1</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Card 3</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>ELEMENTOS</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100"> 
+              <div class="member-info">
+                <h4>Encontrar elementos HTML</h4>
+                <span>A menudo, con JavaScript, desea manipular elementos HTML.</span>
+                <p>Para hacerlo, primero debes encontrar los elementos. Hay varias maneras de hacer esto:
+
+              <p>- Encontrar elementos HTML por ID
+              <p>- Encontrar elementos HTML por nombre de etiqueta</p>
+              <p>- Encontrar elementos HTML por nombre de clase</p>
+              <p>- Encontrar elementos HTML mediante selectores CSS</p>
+              <p>- Encontrar elementos HTML por colecciones de objetos HTML</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+              
+              <div class="member-info">
+                <h4>Encontrar elemento HTML por ID</h4>
+                <span>La forma más fácil de encontrar un elemento HTML en el DOM es utilizando el ID del elemento.</span>
+                <p>Este ejemplo encuentra el elemento con id="intro":</p>
+                <div class="social">
+                <img src="img/el1.jpg" class="img-fluid" alt="">
+                
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
+              <div class="member-info">
+                <h4>Encontrar elementos HTML por nombre de etiqueta</h4>
+                <span>Este ejemplo encuentra todos los < p > elementos:</span>
+                <p><img src="img/el2.jpg"></p>
+                <p>Este ejemplo encuentra el elemento con id="main", y luego encuentra todos los < p > elementos dentro "main":</p>
+                <p><img src="img/el3.jpg" > </p>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="member-info">
+                <h4>Encontrar elementos HTML por nombre de clase</h4>
+                <span>Si desea encontrar todos los elementos HTML con el mismo nombre de clase, utilice getElementsByClassName().</span>
+                <p>Este ejemplo devuelve una lista de todos los elementos con class="intro".</p>
+                <div class="social">
+                  <p><img src="img/el4.jpg" > </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
+              <div class="member-info">
+                <h4>Encontrar elementos HTML mediante selectores CSS</h4>
+                <span>Si desea encontrar todos los elementos HTML que coincidan con un selector CSS especificado (id, nombres de clase, tipos, atributos, valores de atributos, etc.), utilice el querySelectorAll()método.</span>
+                <p>Este ejemplo devuelve una lista de todos los < p > elementos con class="intro".</p>
+                <p><img src="img/el5.jpg" > </p>
+                
+              </div>
+            </div>
+          </div>
+
+           <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
+              <div class="member-info">
+                <h4>Encontrar elementos HTML por colecciones de objetos HTML</h4>
+                <span>Este ejemplo busca el elemento de formulario con id="frm1", en la colección de formularios, y muestra todos los valores del elemento:</span>
+               <p><img src="img/el6.jpg" > </p>
+                
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>DOM HTML</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="box">
+              <h3>Cambio de contenido HTML</h3>
+              <h4><sup>La forma más sencilla de modificar el contenido de un elemento HTML es mediante la innerHTMLpropiedad.</sup><span></span></h4>
+              <ul>
+                <li><i class="bx bx-check"></i> Para cambiar el contenido de un elemento HTML, use esta sintaxis:</li>
+                <li><i class="bx bx-check"></i> document.getElementById(id).innerHTML = new HTML</li>
+                <li><i class="bx bx-check"></i> Este ejemplo cambia el contenido de un <p>elemento:</li>
+
+                <img src="img/html1.jpg">
+              </ul>
+              <a href="#" class="buy-btn">Get Started</a>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
+    
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>DOM CSS</h2>
+          <p>El DOM HTML permite que JavaScript cambie el estilo de los elementos HTML.</p>
+
+<p>Cambiar el estilo HTML</p>
+<p>Para cambiar el estilo de un elemento HTML, use esta sintaxis:</p>
+
+<p>document.getElementById(id).style.property = new style</p>
+<p>El siguiente ejemplo cambia el estilo de un < p > elemento:</p>
+        </div>
+        <img src="img/css1.jpg">
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Grupo 01</h3>
+            <p>
+              Alvarado Carolina <br>
+              Moromenacho Mishell<br>
+              Velasco Karen <br><br>
+      
+            </p>
+          </div>
+
+      
+
+         
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Grupo 01</span></strong>
+      </div>
+      <div class="credits">Derechos Reservados <a href="https://grupo1.com/">Grupo 01</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
